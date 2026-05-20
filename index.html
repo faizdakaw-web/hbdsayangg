@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>For Ikhsan 🩷</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id="romanticSong" loop><source src="assets/musik-romantis.mp3" type="audio/mpeg"></audio>
+
+    <div id="introScreen">
+        <div class="intro-box">
+            <div class="intro-text-wrapper"><h1 id="introText"></h1></div>
+            <p id="humorText" class="humor-text">Tunggu sebentar...</p>
+        </div>
+    </div>
+
+    <div class="container" id="mainContent">
+        <div id="bookSection" style="text-align: center;">
+            <div class="book-container" onclick="turnPage()">
+                <div class="page left-static"><img id="bLeft" src="assets/foto1.jpg"></div>
+                <div class="page right-static"><img id="bRightNext" src="assets/foto3.jpg"></div>
+                <div class="page flip-page" id="flipPage">
+                    <div class="front"><img id="bFront" src="assets/foto2.jpg"></div>
+                    <div class="back"><img id="bBack" src="assets/foto3.jpg"></div>
+                </div>
+            </div>
+            <p style="color:var(--luxury-pink); margin-top:40px; font-weight:700; font-size: 0.85rem; letter-spacing: 2px;">TAP BUKUNYA ✨</p>
+        </div>
+
+        <div id="letterSection">
+            <div class="letter-slider" id="letterSlider">
+                <div class="paper-wrapper">
+                    <div class="paper">
+                        <div class="paper-content" id="textPart1"></div>
+                        <span class="next-btn" id="btnNext1" onclick="slidePaper(1)">Lanjut ➔</span>
+                    </div>
+                </div>
+                <div class="paper-wrapper">
+                    <div class="paper">
+                        <div class="paper-content" id="textPart2"></div>
+                        <span class="next-btn" id="btnNext2" onclick="slidePaper(2)">Lanjut ➔</span>
+                    </div>
+                </div>
+                <div class="paper-wrapper">
+                    <div class="paper">
+                        <div class="paper-content" id="textPart3"></div>
+                        <span class="next-btn" id="btnNext3" onclick="slidePaper(3)">Lanjut ➔</span>
+                    </div>
+                </div>
+                <div class="paper-wrapper">
+                    <div class="paper" style="text-align: center;">
+                        <div class="paper-content" id="textPart4" style="text-align: left;"></div>
+                        <button id="finalBtn" onclick="showStackSurprise()">Buka Kejutan Terakhir ✨</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="finalSurprise">
+        <div class="heart-area" id="heartGrid"></div>
+        <button id="btnFormLove" onclick="formLoveShape()">Susun Cinta 🩷</button>
+        <div class="final-text" id="finalText">
+            <h2>Happy Birthday, Ikhsan!</h2>
+            <p>I Love You Always</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
