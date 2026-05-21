@@ -1,9 +1,9 @@
-const introWords = ["HAPPY", "BIRTHDAY", "IKHSAN", "🩷"];
+const introWords = ["HAPPY", "BIRTHDAY", "Mas", "🩷"];
 // Pastikan asset foto sudah benar urutannya
 const photos = Array.from({length: 10}, (_, i) => `assets/foto${i+1}.jpg`);
 const song = document.getElementById('romanticSong');
 
-const txt1 = `hm hai, aku mau bilang sesuatu nih hehe..\n\nselamat ulang tahun ikhsan..\n\ndi dunia yang mulai tak selalu hangat ini, aku sangat ingin melihatmu memenangkan banyak hal..`;
+const txt1 = `hm hai, aku mau bilang sesuatu nih hehe..\n\nselamat ulang tahun Mas..\n\ndi dunia yang mulai tak selalu hangat ini, aku sangat ingin melihatmu memenangkan banyak hal..`;
 const txt2 = `kurasa kamu tak perlu memenangkan hal yang megah atau mahal, cukup hal-hal kecil bahagia yang terus berlanjut dan membuatmu hidup..`;
 const txt3 = `seperti tidur nyenyak tanpa harus memikirkan masalah pekerjaan yang memusingkan. seringlah tidur malam tanpa perlu musik pengantar, terlebih meneguk obat pahit yang diam-diam kamu benci sejak lama — tidur malam dengan nyenyaklah hanya dengan berdoa saja..`;
 const txt4 = `setelah tidur, aku ingin kamu bangun tanpa merasa lelah, tanpa nyeri di persendianmu, tanpa lingkar mata yang gelap. aku ingin kamu merasa ringan dan penuh kebahagiaan..\n\naku di sini, kamu tidak perlu melewati banyak hal tak baik sendirian..`;
