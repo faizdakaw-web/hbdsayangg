@@ -1,4 +1,4 @@
-const introWords = ["HAPPY", "BIRTHDAY", "Mas", "🩷"];
+const introWords = ["HAPPY", "BIRTHDAY", "MAS", "🩷"];
 // Pastikan asset foto sudah benar urutannya
 const photos = Array.from({length: 10}, (_, i) => `assets/foto${i+1}.jpg`);
 const song = document.getElementById('romanticSong');
